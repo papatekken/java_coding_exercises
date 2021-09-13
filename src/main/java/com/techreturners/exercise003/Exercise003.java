@@ -15,17 +15,16 @@ public class Exercise003 {
     }
 
     int getIceCreamCode(String iceCreamFlavour) {
-        int counter =0;
-        for(int i=0;i<iceCreams.size();i++)
-            if(iceCreams.get(i).getIceCreamFlavour()==iceCreamFlavour)
-                return iceCreams.get(i).geticeCreamCode();
+        for(int counter=0;counter<iceCreams.size();counter++)
+            if(iceCreams.get(counter).getIceCreamFlavour().equals(iceCreamFlavour))
+                return iceCreams.get(counter).geticeCreamCode();
         return -1;
     }
 
     String[] iceCreamFlavours() {
-        String[] outFlavours = new String[iceCreams.size()];;
-        for(int i=0;i<iceCreams.size();i++)
-            outFlavours[i] = iceCreams.get(i).getIceCreamFlavour();
+        String[] outFlavours = new String[iceCreams.size()];
+        for(int counter=0;counter<iceCreams.size();counter++)
+            outFlavours[counter] = iceCreams.get(counter).getIceCreamFlavour();
         return outFlavours;
     }
 

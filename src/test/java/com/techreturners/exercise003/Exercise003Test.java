@@ -52,7 +52,6 @@ public class Exercise003Test {
         int[] iceCreamCodes = new int[iceCreamFlavours.length];
         for(int i =0;i<iceCreamFlavours.length;i++)
             iceCreamCodes[i] = ex003.getIceCreamCode(iceCreamFlavours[i]);
-        System.out.println(iceCreamCodes);
         assertArrayEquals(expected, iceCreamCodes);
     }
 }

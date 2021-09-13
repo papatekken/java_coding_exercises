@@ -22,10 +22,10 @@ public class Exercise001 {
     }
 
     public int countLinuxUsers(List<User> users) {
-        int counter =0;
-        for(int i=0;i<users.size();i++)
-             if(users.get(i).getType()=="Linux")
-                counter++;
-        return counter;
+        int counterLinux =0;
+        for(int counter=0;counter<users.size();counter++)
+             if(users.get(counter).getType().equals("Linux"))
+                 counterLinux++;
+        return counterLinux;
     }
 }
