@@ -1,5 +1,5 @@
 # Java Practice - Solutions
-
-## Name: Allan Yip
+Tech Returners Exercise
+### Name: Allan Yip
 
 Codes and files added to corresponding src and test folders.
